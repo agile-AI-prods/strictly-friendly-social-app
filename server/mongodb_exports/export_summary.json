@@ -1,0 +1,105 @@
+{
+  "exportDate": "2025-08-13T17:04:54.653Z",
+  "database": "strictly-friendly-app",
+  "totalCollections": 16,
+  "successfulExports": 16,
+  "failedExports": 0,
+  "results": [
+    {
+      "collection": "follows",
+      "documents": 14,
+      "file": "follows_2025-08-13.json",
+      "size": 3021
+    },
+    {
+      "collection": "notifications",
+      "documents": 12827,
+      "file": "notifications_2025-08-13.json",
+      "size": 5824330
+    },
+    {
+      "collection": "activities",
+      "documents": 20,
+      "file": "activities_2025-08-13.json",
+      "size": 15976
+    },
+    {
+      "collection": "likes",
+      "documents": 48,
+      "file": "likes_2025-08-13.json",
+      "size": 11984
+    },
+    {
+      "collection": "activity_comments",
+      "documents": 19,
+      "file": "activity_comments_2025-08-13.json",
+      "size": 5564
+    },
+    {
+      "collection": "storage",
+      "documents": 0,
+      "file": "storage_2025-08-13.json",
+      "size": 2
+    },
+    {
+      "collection": "activity_participants",
+      "documents": 30,
+      "file": "activity_participants_2025-08-13.json",
+      "size": 10318
+    },
+    {
+      "collection": "connections",
+      "documents": 52,
+      "file": "connections_2025-08-13.json",
+      "size": 15551
+    },
+    {
+      "collection": "auth_users",
+      "documents": 42,
+      "file": "auth_users_2025-08-13.json",
+      "size": 15586
+    },
+    {
+      "collection": "typing_status",
+      "documents": 7,
+      "file": "typing_status_2025-08-13.json",
+      "size": 1753
+    },
+    {
+      "collection": "calls",
+      "documents": 2,
+      "file": "calls_2025-08-13.json",
+      "size": 799
+    },
+    {
+      "collection": "friends",
+      "documents": 4,
+      "file": "friends_2025-08-13.json",
+      "size": 1064
+    },
+    {
+      "collection": "profiles",
+      "documents": 42,
+      "file": "profiles_2025-08-13.json",
+      "size": 47729
+    },
+    {
+      "collection": "settings",
+      "documents": 11,
+      "file": "settings_2025-08-13.json",
+      "size": 3748
+    },
+    {
+      "collection": "device_management",
+      "documents": 3,
+      "file": "device_management_2025-08-13.json",
+      "size": 866
+    },
+    {
+      "collection": "messages",
+      "documents": 1028,
+      "file": "messages_2025-08-13.json",
+      "size": 348944
+    }
+  ]
+}

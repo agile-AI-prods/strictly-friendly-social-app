@@ -1,0 +1,270 @@
+[
+  {
+    "_id": "0faa7944-cc13-4dfc-a5e2-36efec97d9a3",
+    "activity_id": "6d59fb8c-20d9-4b79-98c1-8b4b24f8d28e",
+    "user_id": "2578f13c-eddb-4546-9225-d2b6d8ecbbac",
+    "status": "joining",
+    "joined_at": "2025-06-12 11:10:24.356+00",
+    "created_at": "2025-06-12 11:10:24.412163+00",
+    "updated_at": "2025-06-12 11:10:24.412163+00"
+  },
+  {
+    "_id": "20f3be43-238c-4c77-aa4d-9725241afff0",
+    "activity_id": "342d4907-1c54-4cda-a39c-24ff8e4c1ed1",
+    "user_id": "3c24d7dd-5f6c-4bef-9a5f-1dbf596cddfe",
+    "status": "accepted",
+    "joined_at": "2025-07-14 09:12:52.978+00",
+    "created_at": "2025-07-14 09:12:55.016214+00",
+    "updated_at": "2025-07-14 09:12:55.016214+00"
+  },
+  {
+    "_id": "2ca91aed-20ad-4564-a453-ba755523f23b",
+    "activity_id": "6e43e4dd-0e7f-4693-ad46-489b1c5683a7",
+    "user_id": "589466b7-e277-4478-8af8-ac5eb8c0a689",
+    "status": "accepted",
+    "joined_at": "2025-06-29 04:15:11.328+00",
+    "created_at": "2025-06-29 04:15:11.429673+00",
+    "updated_at": "2025-07-06 20:03:31.188343+00"
+  },
+  {
+    "_id": "2e2e3dec-3a58-4965-bc28-c81bfa903232",
+    "activity_id": "206adc33-6ed6-4d0b-8e7e-d9c94265db4c",
+    "user_id": "324338e4-8855-4a96-b9cc-66f33575c756",
+    "status": "accepted",
+    "joined_at": "2025-07-07 21:41:36.572+00",
+    "created_at": "2025-07-08 01:41:11.087243+00",
+    "updated_at": "2025-07-08 01:41:11.087243+00"
+  },
+  {
+    "_id": "3bfc715b-525c-4d5f-a321-8b117d3bd828",
+    "activity_id": "c5f682e7-e281-48ea-af26-bf26c15885dd",
+    "user_id": "589466b7-e277-4478-8af8-ac5eb8c0a689",
+    "status": "joining",
+    "joined_at": "2025-07-24 01:59:32.955+00",
+    "created_at": "2025-07-24 01:59:33.231389+00",
+    "updated_at": "2025-07-24 01:59:33.231389+00"
+  },
+  {
+    "_id": "3e9e04ed-0caf-45b5-8e83-8450c725e9fc",
+    "activity_id": "8bfe99f6-1e71-40ab-b742-e0da91f482fa",
+    "user_id": "46452351-9d78-4567-9789-bfbe53a375af",
+    "status": "accepted",
+    "joined_at": "2025-06-10 16:06:16.549+00",
+    "created_at": "2025-06-10 16:06:16.549+00",
+    "updated_at": "2025-06-10 16:06:16.549+00"
+  },
+  {
+    "_id": "4e6285c6-2a68-452d-83cd-892d02a5d8f5",
+    "activity_id": "206adc33-6ed6-4d0b-8e7e-d9c94265db4c",
+    "user_id": "589466b7-e277-4478-8af8-ac5eb8c0a689",
+    "status": "accepted",
+    "joined_at": "2025-07-08 03:07:49.827+00",
+    "created_at": "2025-07-08 03:07:49.485545+00",
+    "updated_at": "2025-07-08 03:40:50.130163+00"
+  },
+  {
+    "_id": "52da6b26-673e-44d6-adeb-ceb643a6bbaa",
+    "activity_id": "6e43e4dd-0e7f-4693-ad46-489b1c5683a7",
+    "user_id": "324338e4-8855-4a96-b9cc-66f33575c756",
+    "status": "invited",
+    "created_at": "2025-07-06 18:37:13.926606+00",
+    "updated_at": "2025-07-06 18:37:13.926606+00"
+  },
+  {
+    "_id": "5c22a6dc-2ea1-4017-ad0e-0342ecdbe248",
+    "activity_id": "8bfe99f6-1e71-40ab-b742-e0da91f482fa",
+    "user_id": "589466b7-e277-4478-8af8-ac5eb8c0a689",
+    "status": "accepted",
+    "joined_at": "2025-06-29 04:15:07.306+00",
+    "created_at": "2025-06-29 04:15:07.450754+00",
+    "updated_at": "2025-07-06 20:44:42.448344+00"
+  },
+  {
+    "_id": "61369770-7e77-48ec-a5bb-3c3671dcc9e8",
+    "activity_id": "ea8c55d5-18da-44a3-8427-4d0b1500820c",
+    "user_id": "589466b7-e277-4478-8af8-ac5eb8c0a689",
+    "status": "accepted",
+    "joined_at": "2025-06-13 04:06:59.477+00",
+    "created_at": "2025-06-13 04:07:00.133342+00",
+    "updated_at": "2025-06-13 09:53:10.704475+00"
+  },
+  {
+    "_id": "64af4d40-f7d5-4593-8776-9887c3121563",
+    "activity_id": "ea8c55d5-18da-44a3-8427-4d0b1500820c",
+    "user_id": "46452351-9d78-4567-9789-bfbe53a375af",
+    "status": "accepted",
+    "joined_at": "2025-06-12 10:15:37.24+00",
+    "created_at": "2025-06-12 10:15:37.296794+00",
+    "updated_at": "2025-06-13 00:22:25.018415+00"
+  },
+  {
+    "_id": "6f4fe49c-ad40-4268-9792-bff6fbb4bb38",
+    "activity_id": "b29656e2-8df5-4926-ade0-f2673f6e839c",
+    "user_id": "324338e4-8855-4a96-b9cc-66f33575c756",
+    "status": "accepted",
+    "joined_at": "2025-07-07 21:44:50.125+00",
+    "created_at": "2025-07-08 01:44:24.639622+00",
+    "updated_at": "2025-07-08 01:44:24.639622+00"
+  },
+  {
+    "_id": "74b01458-ac1e-4f03-b46f-0ab77fdab9e2",
+    "activity_id": "4047aad8-5ec0-4ff1-ad59-ad30e0485c81",
+    "user_id": "589466b7-e277-4478-8af8-ac5eb8c0a689",
+    "status": "accepted",
+    "joined_at": "2025-07-07 14:17:24.756+00",
+    "created_at": "2025-07-07 14:17:25.637457+00",
+    "updated_at": "2025-07-07 14:21:05.966216+00"
+  },
+  {
+    "_id": "94863279-15b0-45ae-9002-b91c640d1c10",
+    "activity_id": "b1c9c56e-9d10-46a5-9e67-40c0f5647dcd",
+    "user_id": "589466b7-e277-4478-8af8-ac5eb8c0a689",
+    "status": "accepted",
+    "joined_at": "2025-07-08 03:07:49.569+00",
+    "created_at": "2025-07-08 03:07:49.319645+00",
+    "updated_at": "2025-07-08 03:41:04.035545+00"
+  },
+  {
+    "_id": "949ee3ba-5850-4d3c-ac79-c5078367af0d",
+    "activity_id": "6c66c131-0f95-45e7-bf7b-2028e7affe8e",
+    "user_id": "324338e4-8855-4a96-b9cc-66f33575c756",
+    "status": "accepted",
+    "joined_at": "2025-07-07 21:52:05.348+00",
+    "created_at": "2025-07-08 01:51:39.867917+00",
+    "updated_at": "2025-07-08 01:51:39.867917+00"
+  },
+  {
+    "_id": "998ad11b-7a2a-418d-9c7f-484e6ec56961",
+    "activity_id": "6e43e4dd-0e7f-4693-ad46-489b1c5683a7",
+    "user_id": "2578f13c-eddb-4546-9225-d2b6d8ecbbac",
+    "status": "joined",
+    "created_at": "2025-06-10 22:27:48.53547+00",
+    "updated_at": "2025-06-10 22:27:49.192544+00"
+  },
+  {
+    "_id": "a865faab-7c8f-4499-ab36-1bee7f6c2c60",
+    "activity_id": "6e43e4dd-0e7f-4693-ad46-489b1c5683a7",
+    "user_id": "46452351-9d78-4567-9789-bfbe53a375af",
+    "status": "accepted",
+    "joined_at": "2025-06-09 23:14:27.331+00",
+    "created_at": "2025-06-09 23:14:27.331+00",
+    "updated_at": "2025-06-09 23:14:27.331+00"
+  },
+  {
+    "_id": "afb214b8-a33e-4958-b8fe-e5300aa55b6c",
+    "activity_id": "b29656e2-8df5-4926-ade0-f2673f6e839c",
+    "user_id": "589466b7-e277-4478-8af8-ac5eb8c0a689",
+    "status": "accepted",
+    "joined_at": "2025-07-08 03:08:10.388+00",
+    "created_at": "2025-07-08 03:08:10.264667+00",
+    "updated_at": "2025-07-08 03:38:03.152728+00"
+  },
+  {
+    "_id": "afda42f8-b0e2-46cb-a72a-bc1731ce4033",
+    "activity_id": "6d59fb8c-20d9-4b79-98c1-8b4b24f8d28e",
+    "user_id": "589466b7-e277-4478-8af8-ac5eb8c0a689",
+    "status": "joining",
+    "joined_at": "2025-06-29 04:15:11.774+00",
+    "created_at": "2025-06-29 04:15:11.865129+00",
+    "updated_at": "2025-06-29 04:15:11.865129+00"
+  },
+  {
+    "_id": "b748b0c7-450a-4755-b1e7-477e361599b9",
+    "activity_id": "1a41c8d4-ea27-459a-b884-40c3bf0e2443",
+    "user_id": "a48b21de-2d1f-4a57-b8c4-ac543067c1ed",
+    "status": "accepted",
+    "joined_at": "2025-07-24 03:03:30.083+00",
+    "created_at": "2025-07-24 03:03:30.323219+00",
+    "updated_at": "2025-07-24 03:03:30.323219+00"
+  },
+  {
+    "_id": "bcaeff9c-521e-4ef2-baa3-352d57a49394",
+    "activity_id": "8bfe99f6-1e71-40ab-b742-e0da91f482fa",
+    "user_id": "2578f13c-eddb-4546-9225-d2b6d8ecbbac",
+    "status": "accepted",
+    "joined_at": "2025-06-12 10:53:01.02+00",
+    "created_at": "2025-06-12 10:53:01.339862+00",
+    "updated_at": "2025-07-06 20:44:39.787409+00"
+  },
+  {
+    "_id": "c641778c-cd45-4898-a02f-2b8c71e29ffc",
+    "activity_id": "6d59fb8c-20d9-4b79-98c1-8b4b24f8d28e",
+    "user_id": "46452351-9d78-4567-9789-bfbe53a375af",
+    "status": "accepted",
+    "joined_at": "2025-06-10 16:10:23.406+00",
+    "created_at": "2025-06-10 16:10:23.406+00",
+    "updated_at": "2025-06-10 16:10:23.406+00"
+  },
+  {
+    "_id": "d9abc810-b404-4b30-9885-b5bec0505e57",
+    "activity_id": "ea8c55d5-18da-44a3-8427-4d0b1500820c",
+    "user_id": "2578f13c-eddb-4546-9225-d2b6d8ecbbac",
+    "status": "accepted",
+    "joined_at": "2025-06-12 11:31:35.389+00",
+    "created_at": "2025-06-12 11:31:35.432113+00",
+    "updated_at": "2025-06-13 00:11:06.376665+00"
+  },
+  {
+    "_id": "e3dc7f0c-ffa4-4564-b5dc-25de41ae806d",
+    "activity_id": "4047aad8-5ec0-4ff1-ad59-ad30e0485c81",
+    "user_id": "46452351-9d78-4567-9789-bfbe53a375af",
+    "status": "accepted",
+    "joined_at": "2025-07-07 12:53:28.301+00",
+    "created_at": "2025-07-07 12:53:28.293924+00",
+    "updated_at": "2025-07-07 12:53:28.293924+00"
+  },
+  {
+    "_id": "e4200ffd-5cab-48f7-8710-f4548391c2f2",
+    "activity_id": "c5f682e7-e281-48ea-af26-bf26c15885dd",
+    "user_id": "423bf2f6-bb65-448c-bd29-89a9f4740d52",
+    "status": "accepted",
+    "joined_at": "2025-07-23 21:43:28.529+00",
+    "created_at": "2025-07-23 21:43:28.681125+00",
+    "updated_at": "2025-07-23 21:43:28.681125+00"
+  },
+  {
+    "_id": "e428a533-0940-4073-9c44-aa2be208ece7",
+    "activity_id": "c5f682e7-e281-48ea-af26-bf26c15885dd",
+    "user_id": "a48b21de-2d1f-4a57-b8c4-ac543067c1ed",
+    "status": "joining",
+    "joined_at": "2025-07-24 02:49:26.877+00",
+    "created_at": "2025-07-24 02:49:27.175273+00",
+    "updated_at": "2025-07-24 02:49:27.175273+00"
+  },
+  {
+    "_id": "e720ad30-a889-4895-af7d-bf35dfe17d40",
+    "activity_id": "6c66c131-0f95-45e7-bf7b-2028e7affe8e",
+    "user_id": "589466b7-e277-4478-8af8-ac5eb8c0a689",
+    "status": "accepted",
+    "joined_at": "2025-07-08 03:08:11.235+00",
+    "created_at": "2025-07-08 03:08:10.889057+00",
+    "updated_at": "2025-07-08 03:37:42.499859+00"
+  },
+  {
+    "_id": "ec5b7db6-b4cc-4f84-a9ec-6ea7273593cb",
+    "activity_id": "206adc33-6ed6-4d0b-8e7e-d9c94265db4c",
+    "user_id": "a48b21de-2d1f-4a57-b8c4-ac543067c1ed",
+    "status": "joining",
+    "joined_at": "2025-07-13 17:21:44.85+00",
+    "created_at": "2025-07-13 17:21:45.117848+00",
+    "updated_at": "2025-07-13 17:21:45.117848+00"
+  },
+  {
+    "_id": "f372885b-1a64-4695-9bd6-090306477e88",
+    "activity_id": "b1c9c56e-9d10-46a5-9e67-40c0f5647dcd",
+    "user_id": "324338e4-8855-4a96-b9cc-66f33575c756",
+    "status": "accepted",
+    "joined_at": "2025-07-07 21:38:16.684+00",
+    "created_at": "2025-07-08 01:37:51.245047+00",
+    "updated_at": "2025-07-08 01:37:51.245047+00"
+  },
+  {
+    "_id": "f6331d8c-aaaf-4fd6-acdc-9221087ebd92",
+    "activity_id": "f0b2bee7-7d5c-4976-9e7b-5b06170cd788",
+    "user_id": "3c24d7dd-5f6c-4bef-9a5f-1dbf596cddfe",
+    "status": "accepted",
+    "joined_at": "2025-07-14 09:16:23.862+00",
+    "created_at": "2025-07-14 09:16:24.447652+00",
+    "updated_at": "2025-07-14 09:16:24.447652+00"
+  }
+]

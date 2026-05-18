@@ -1,0 +1,86 @@
+[
+  {
+    "_id": "689ac125b2022be5a432b5bf",
+    "follower_id": "3c24d7dd-5f6c-4bef-9a5f-1dbf596cddfe",
+    "followed_id": "46452351-9d78-4567-9789-bfbe53a375af",
+    "created_at": "2025-08-07 19:05:16.16956+00"
+  },
+  {
+    "_id": "689ac125b2022be5a432b5c0",
+    "follower_id": "423bf2f6-bb65-448c-bd29-89a9f4740d52",
+    "followed_id": "589466b7-e277-4478-8af8-ac5eb8c0a689",
+    "created_at": "2025-08-07 00:15:35.399045+00"
+  },
+  {
+    "_id": "689ac125b2022be5a432b5c1",
+    "follower_id": "46452351-9d78-4567-9789-bfbe53a375af",
+    "followed_id": "423bf2f6-bb65-448c-bd29-89a9f4740d52",
+    "created_at": "2025-06-18 12:26:30.202029+00"
+  },
+  {
+    "_id": "689ac125b2022be5a432b5c2",
+    "follower_id": "46452351-9d78-4567-9789-bfbe53a375af",
+    "followed_id": "a97711b6-8dc3-4d59-84fd-397b3e9a0d7c",
+    "created_at": "2025-07-10 19:33:00.542763+00"
+  },
+  {
+    "_id": "689ac125b2022be5a432b5c3",
+    "follower_id": "589466b7-e277-4478-8af8-ac5eb8c0a689",
+    "followed_id": "46452351-9d78-4567-9789-bfbe53a375af",
+    "created_at": "2025-07-29 14:56:29.374457+00"
+  },
+  {
+    "_id": "689ac125b2022be5a432b5c4",
+    "follower_id": "589466b7-e277-4478-8af8-ac5eb8c0a689",
+    "followed_id": "51274231-c632-457e-b5d2-f1d692ba0ffa",
+    "created_at": "2025-08-09 02:48:56.1166+00"
+  },
+  {
+    "_id": "689ac125b2022be5a432b5c5",
+    "follower_id": "589466b7-e277-4478-8af8-ac5eb8c0a689",
+    "followed_id": "5ecfa60e-9ca7-4d1a-88f6-f8770bfb8cbb",
+    "created_at": "2025-07-22 04:00:56.271188+00"
+  },
+  {
+    "_id": "689ac125b2022be5a432b5c6",
+    "follower_id": "589466b7-e277-4478-8af8-ac5eb8c0a689",
+    "followed_id": "9a84a9c7-c648-4b91-870a-12db43a1ac87",
+    "created_at": "2025-08-08 04:23:39.827547+00"
+  },
+  {
+    "_id": "689ac125b2022be5a432b5c7",
+    "follower_id": "589466b7-e277-4478-8af8-ac5eb8c0a689",
+    "followed_id": "9c591e83-1264-45c0-bc00-5fd51e301450",
+    "created_at": "2025-07-16 23:59:04.114931+00"
+  },
+  {
+    "_id": "689ac125b2022be5a432b5c8",
+    "follower_id": "589466b7-e277-4478-8af8-ac5eb8c0a689",
+    "followed_id": "9ee04d1e-0b94-45fe-aa7f-21ffb26c722b",
+    "created_at": "2025-07-17 00:29:37.189455+00"
+  },
+  {
+    "_id": "689ac125b2022be5a432b5c9",
+    "follower_id": "9ee04d1e-0b94-45fe-aa7f-21ffb26c722b",
+    "followed_id": "3c24d7dd-5f6c-4bef-9a5f-1dbf596cddfe",
+    "created_at": "2025-08-07 21:20:12.016055+00"
+  },
+  {
+    "_id": "689ac125b2022be5a432b5ca",
+    "follower_id": "a48b21de-2d1f-4a57-b8c4-ac543067c1ed",
+    "followed_id": "324338e4-8855-4a96-b9cc-66f33575c756",
+    "created_at": "2025-07-10 22:56:30.44763+00"
+  },
+  {
+    "_id": "689ac125b2022be5a432b5cb",
+    "follower_id": "a48b21de-2d1f-4a57-b8c4-ac543067c1ed",
+    "followed_id": "589466b7-e277-4478-8af8-ac5eb8c0a689",
+    "created_at": "2025-07-10 22:57:08.106823+00"
+  },
+  {
+    "_id": "689ac125b2022be5a432b5cc",
+    "follower_id": "fea2f268-95ae-4d16-bb8b-2e8bb54caa94",
+    "followed_id": "589466b7-e277-4478-8af8-ac5eb8c0a689",
+    "created_at": "2025-07-23 01:34:38.94797+00"
+  }
+]

@@ -1,0 +1,381 @@
+//  Google Apps Script code for setting up the backend
+// Create a new Google Sheet with the following sheets: Users, Connections, Messages
+// Then create a new Apps Script project and paste this code
+
+// Set up the spreadsheet structure and initialize it
+function setup() {
+  const ss = SpreadsheetApp.getActiveSpreadsheet();
+  
+  // Create Users sheet if it doesn't exist
+  let usersSheet = ss.getSheetByName('Users');
+  if (!usersSheet) {
+    usersSheet = ss.insertSheet('Users');
+    usersSheet.appendRow(['id', 'name', 'age', 'bio', 'photoUrl', 'interests', 'latitude', 'longitude', 'email', 'phone', 'createdAt']);
+  }
+  
+  // Create Connections sheet if it doesn't exist
+  let connectionsSheet = ss.getSheetByName('Connections');
+  if (!connectionsSheet) {
+    connectionsSheet = ss.insertSheet('Connections');
+    connectionsSheet.appendRow(['id', 'senderId', 'receiverId', 'status', 'createdAt']);
+  }
+  
+  // Create Messages sheet if it doesn't exist
+  let messagesSheet = ss.getSheetByName('Messages');
+  if (!messagesSheet) {
+    messagesSheet = ss.insertSheet('Messages');
+    messagesSheet.appendRow(['id', 'senderId', 'receiverId', 'content', 'emotion', 'read', 'createdAt']);
+  }
+  
+  return "Setup complete";
+}
+
+// Web app endpoint to handle all requests
+function doPost(e) {
+  const data = JSON.parse(e.postData.contents);
+  const action = data.action;
+  
+  let result;
+  
+  switch(action) {
+    case 'getUsers':
+      result = { users: getUsers() };
+      break;
+    case 'getUserById':
+      result = { user: getUserById(data.userId) };
+      break;
+    case 'createUser':
+      result = { user: createUser(data.user) };
+      break;
+    case 'updateUser':
+      result = { user: updateUser(data.user) };
+      break;
+    case 'getConnections':
+      result = { connections: getConnections() };
+      break;
+    case 'createConnection':
+      result = { connection: createConnection(data.connection) };
+      break;
+    case 'updateConnection':
+      result = { connection: updateConnection(data.connectionId, data.status) };
+      break;
+    case 'deleteConnection':
+      result = { success: deleteConnection(data.connectionId) };
+      break;
+    case 'getMessages':
+      result = { messages: getMessages() };
+      break;
+    case 'createMessage':
+      result = { message: createMessage(data.message) };
+      break;
+    case 'markMessagesAsRead':
+      result = { success: markMessagesAsRead(data.messageIds) };
+      break;
+    default:
+      result = { error: 'Unknown action' };
+  }
+  
+  return ContentService.createTextOutput(JSON.stringify(result))
+    .setMimeType(ContentService.MimeType.JSON);
+}
+
+// Helper functions for each entity
+
+// USERS
+function getUsers() {
+  const ss = SpreadsheetApp.getActiveSpreadsheet();
+  const sheet = ss.getSheetByName('Users');
+  const data = sheet.getDataRange().getValues();
+  const headers = data[0];
+  
+  const users = [];
+  for (let i = 1; i < data.length; i++) {
+    const user = {};
+    for (let j = 0; j < headers.length; j++) {
+      if (headers[j] === 'interests') {
+        user[headers[j]] = data[i][j] ? JSON.parse(data[i][j]) : [];
+      } else if (headers[j] === 'latitude' || headers[j] === 'longitude') {
+        if (!user.location) user.location = {};
+        user.location[headers[j]] = parseFloat(data[i][j]);
+      } else if (headers[j] === 'email' || headers[j] === 'phone') {
+        if (!user.contactInfo) user.contactInfo = {};
+        if (data[i][j]) user.contactInfo[headers[j]] = data[i][j];
+      } else {
+        user[headers[j]] = data[i][j];
+      }
+    }
+    users.push(user);
+  }
+  
+  return users;
+}
+
+function getUserById(userId) {
+  const users = getUsers();
+  return users.find(user => user.id === userId) || null;
+}
+
+function createUser(userData) {
+  const ss = SpreadsheetApp.getActiveSpreadsheet();
+  const sheet = ss.getSheetByName('Users');
+  
+  const userId = Utilities.getUuid();
+  const now = new Date().toISOString();
+  
+  // Process interests
+  const interests = JSON.stringify(userData.interests || []);
+  
+  // Process location
+  const latitude = userData.location ? userData.location.latitude : 0;
+  const longitude = userData.location ? userData.location.longitude : 0;
+  
+  // Process contact info
+  const email = userData.contactInfo && userData.contactInfo.email || '';
+  const phone = userData.contactInfo && userData.contactInfo.phone || '';
+  
+  sheet.appendRow([
+    userId,
+    userData.name,
+    userData.age,
+    userData.bio,
+    userData.photoUrl,
+    interests,
+    latitude,
+    longitude,
+    email,
+    phone,
+    now
+  ]);
+  
+  return getUserById(userId);
+}
+
+function updateUser(userData) {
+  const ss = SpreadsheetApp.getActiveSpreadsheet();
+  const sheet = ss.getSheetByName('Users');
+  const data = sheet.getDataRange().getValues();
+  const headers = data[0];
+  
+  for (let i = 1; i < data.length; i++) {
+    if (data[i][0] === userData.id) {
+      // Found the user row
+      const rowIndex = i + 1; // 1-based indexing in Sheets
+      
+      // Update each column
+      const interests = JSON.stringify(userData.interests || []);
+      const latitude = userData.location ? userData.location.latitude : 0;
+      const longitude = userData.location ? userData.location.longitude : 0;
+      const email = userData.contactInfo && userData.contactInfo.email || '';
+      const phone = userData.contactInfo && userData.contactInfo.phone || '';
+      
+      for (let j = 0; j < headers.length; j++) {
+        if (headers[j] === 'id' || headers[j] === 'createdAt') {
+          continue; // Don't update these fields
+        } else if (headers[j] === 'interests') {
+          sheet.getRange(rowIndex, j + 1).setValue(interests);
+        } else if (headers[j] === 'latitude') {
+          sheet.getRange(rowIndex, j + 1).setValue(latitude);
+        } else if (headers[j] === 'longitude') {
+          sheet.getRange(rowIndex, j + 1).setValue(longitude);
+        } else if (headers[j] === 'email') {
+          sheet.getRange(rowIndex, j + 1).setValue(email);
+        } else if (headers[j] === 'phone') {
+          sheet.getRange(rowIndex, j + 1).setValue(phone);
+        } else {
+          sheet.getRange(rowIndex, j + 1).setValue(userData[headers[j]]);
+        }
+      }
+      
+      return getUserById(userData.id);
+    }
+  }
+  
+  return null; // User not found
+}
+
+// CONNECTIONS
+function getConnections() {
+  const ss = SpreadsheetApp.getActiveSpreadsheet();
+  const sheet = ss.getSheetByName('Connections');
+  const data = sheet.getDataRange().getValues();
+  const headers = data[0];
+  
+  const connections = [];
+  for (let i = 1; i < data.length; i++) {
+    const connection = {};
+    for (let j = 0; j < headers.length; j++) {
+      connection[headers[j]] = data[i][j];
+    }
+    connections.push(connection);
+  }
+  
+  return connections;
+}
+
+function createConnection(connectionData) {
+  const ss = SpreadsheetApp.getActiveSpreadsheet();
+  const sheet = ss.getSheetByName('Connections');
+  
+  const connectionId = Utilities.getUuid();
+  const now = new Date().toISOString();
+  
+  sheet.appendRow([
+    connectionId,
+    connectionData.senderId,
+    connectionData.receiverId,
+    connectionData.status,
+    now
+  ]);
+  
+  return getConnectionById(connectionId);
+}
+
+function getConnectionById(connectionId) {
+  const connections = getConnections();
+  return connections.find(conn => conn.id === connectionId) || null;
+}
+
+function updateConnection(connectionId, status) {
+  const ss = SpreadsheetApp.getActiveSpreadsheet();
+  const sheet = ss.getSheetByName('Connections');
+  const data = sheet.getDataRange().getValues();
+  const headers = data[0];
+  
+  const statusColIndex = headers.indexOf('status');
+  if (statusColIndex === -1) return null;
+  
+  for (let i = 1; i < data.length; i++) {
+    if (data[i][0] === connectionId) {
+      // Found the connection row
+      const rowIndex = i + 1; // 1-based indexing in Sheets
+      sheet.getRange(rowIndex, statusColIndex + 1).setValue(status);
+      return getConnectionById(connectionId);
+    }
+  }
+  
+  return null; // Connection not found
+}
+
+function deleteConnection(connectionId) {
+  const ss = SpreadsheetApp.getActiveSpreadsheet();
+  const sheet = ss.getSheetByName('Connections');
+  const data = sheet.getDataRange().getValues();
+  
+  for (let i = 1; i < data.length; i++) {
+    if (data[i][0] === connectionId) {
+      // Found the connection row
+      const rowIndex = i + 1; // 1-based indexing in Sheets
+      sheet.deleteRow(rowIndex);
+      return true;
+    }
+  }
+  
+  return false; // Connection not found
+}
+
+// MESSAGES
+function getMessages() {
+  const ss = SpreadsheetApp.getActiveSpreadsheet();
+  const sheet = ss.getSheetByName('Messages');
+  const data = sheet.getDataRange().getValues();
+  const headers = data[0];
+  
+  const allMessages = [];
+  for (let i = 1; i < data.length; i++) {
+    const message = {};
+    for (let j = 0; j < headers.length; j++) {
+      if (headers[j] === 'read') {
+        message[headers[j]] = Boolean(data[i][j]);
+      } else {
+        message[headers[j]] = data[i][j];
+      }
+    }
+    allMessages.push(message);
+  }
+  
+  // Group messages by conversation
+  const groupedMessages = {};
+  allMessages.forEach(message => {
+    const conversationKey = [message.senderId, message.receiverId].sort().join('_');
+    if (!groupedMessages[conversationKey]) {
+      groupedMessages[conversationKey] = [];
+    }
+    groupedMessages[conversationKey].push(message);
+  });
+  
+  // Sort messages by createdAt
+  Object.keys(groupedMessages).forEach(key => {
+    groupedMessages[key].sort((a, b) => new Date(a.createdAt) - new Date(b.createdAt));
+  });
+  
+  return groupedMessages;
+}
+
+function createMessage(messageData) {
+  const ss = SpreadsheetApp.getActiveSpreadsheet();
+  const sheet = ss.getSheetByName('Messages');
+  
+  const messageId = Utilities.getUuid();
+  const now = new Date().toISOString();
+  
+  sheet.appendRow([
+    messageId,
+    messageData.senderId,
+    messageData.receiverId,
+    messageData.content,
+    messageData.emotion || '',
+    false, // not read yet
+    now
+  ]);
+  
+  return getMessageById(messageId);
+}
+
+function getMessageById(messageId) {
+  const ss = SpreadsheetApp.getActiveSpreadsheet();
+  const sheet = ss.getSheetByName('Messages');
+  const data = sheet.getDataRange().getValues();
+  const headers = data[0];
+  
+  for (let i = 1; i < data.length; i++) {
+    if (data[i][0] === messageId) {
+      const message = {};
+      for (let j = 0; j < headers.length; j++) {
+        if (headers[j] === 'read') {
+          message[headers[j]] = Boolean(data[i][j]);
+        } else {
+          message[headers[j]] = data[i][j];
+        }
+      }
+      return message;
+    }
+  }
+  
+  return null; // Message not found
+}
+
+function markMessagesAsRead(messageIds) {
+  if (!messageIds || !messageIds.length) return false;
+  
+  const ss = SpreadsheetApp.getActiveSpreadsheet();
+  const sheet = ss.getSheetByName('Messages');
+  const data = sheet.getDataRange().getValues();
+  const headers = data[0];
+  
+  const readColIndex = headers.indexOf('read');
+  if (readColIndex === -1) return false;
+  
+  let success = false;
+  
+  for (let i = 1; i < data.length; i++) {
+    if (messageIds.includes(data[i][0])) {
+      // Found a message to mark as read
+      const rowIndex = i + 1; // 1-based indexing in Sheets
+      sheet.getRange(rowIndex, readColIndex + 1).setValue(true);
+      success = true;
+    }
+  }
+  
+  return success;
+}
+ 

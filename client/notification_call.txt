@@ -1,0 +1,1 @@
+socketService.createNotification({type: "connection", from_user_id: currentUser?.id || "", to_user_id: receiverId, content: `${currentUser?.name || "Someone"} sent you a connection request!`, metadata: { connection_id: connectionId }});

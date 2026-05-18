@@ -1,0 +1,43 @@
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+/*   
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #444;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+  
+  /* .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  } */
+  
+.hero-swiper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.swiper-parallax-bg {
+  transform: translate3d(0, 0, 0);
+  transition: transform 1.2s cubic-bezier(0.4, 0, 0.2, 1);
+  will-change: transform;
+}
+/* Add vertical movement on hover */
+.swiper-parallax-bg:hover {
+  /* transform: translate3d(0, -2%, 0) scale(1.2); */
+  transition: transform 0.5s ease-out;
+}
+
+.swiper-slide-active .swiper-parallax-bg {
+  animation: float 6s ease-in-out infinite;
+}
+  

@@ -1,0 +1,418 @@
+[
+  {
+    "_id": "03cacf82-9714-4c76-b8d1-ece1025fb8c3",
+    "sender_id": "589466b7-e277-4478-8af8-ac5eb8c0a689",
+    "receiver_id": "589466b7-e277-4478-8af8-ac5eb8c0a689",
+    "status": "pending",
+    "created_at": "2025-07-14 18:49:25.204+00",
+    "updated_at": "2025-07-14 18:49:25.204+00"
+  },
+  {
+    "_id": "074cd02e-c059-4195-b701-f21eb8d4d217",
+    "sender_id": "a48b21de-2d1f-4a57-b8c4-ac543067c1ed",
+    "receiver_id": "589466b7-e277-4478-8af8-ac5eb8c0a689",
+    "status": "accepted",
+    "created_at": "2025-06-06 01:19:45.710938+00",
+    "updated_at": "2025-06-06 02:15:31.859284+00"
+  },
+  {
+    "_id": "0bb3abaa-0ccd-4d95-a607-b172e782fc92",
+    "sender_id": "3c24d7dd-5f6c-4bef-9a5f-1dbf596cddfe",
+    "receiver_id": "9ee04d1e-0b94-45fe-aa7f-21ffb26c722b",
+    "status": "pending",
+    "created_at": "2025-08-07 21:20:21.002+00",
+    "updated_at": "2025-08-07 21:20:21.002+00"
+  },
+  {
+    "_id": "0ca09449-ab05-4fca-9e5d-9e21ca209437",
+    "sender_id": "589466b7-e277-4478-8af8-ac5eb8c0a689",
+    "receiver_id": "12c001d8-5f92-4830-a28c-26e7d00dfa70",
+    "status": "pending",
+    "created_at": "2025-07-22 20:17:16.645+00",
+    "updated_at": "2025-07-22 20:17:16.645+00"
+  },
+  {
+    "_id": "0eed5d6b-0ed2-4e0c-ad44-1cf177ff9202",
+    "sender_id": "f3537009-2f73-4430-895a-ec499d1f5e44",
+    "receiver_id": "3fd9c899-5b13-4af1-b605-914c7f06cba4",
+    "status": "pending",
+    "created_at": "2025-07-31 23:39:27.457+00",
+    "updated_at": "2025-07-31 23:39:27.457+00"
+  },
+  {
+    "_id": "1069ef9a-ec06-46a1-acca-97a33953ece0",
+    "sender_id": "589466b7-e277-4478-8af8-ac5eb8c0a689",
+    "receiver_id": "9a84a9c7-c648-4b91-870a-12db43a1ac87",
+    "status": "pending",
+    "created_at": "2025-06-11 02:17:54.560873+00",
+    "updated_at": "2025-06-11 02:17:54.560873+00"
+  },
+  {
+    "_id": "1d9fb1f6-44de-4502-a791-187788a4fca5",
+    "sender_id": "589466b7-e277-4478-8af8-ac5eb8c0a689",
+    "receiver_id": "9ee04d1e-0b94-45fe-aa7f-21ffb26c722b",
+    "status": "pending",
+    "created_at": "2025-07-17 00:29:37.986+00",
+    "updated_at": "2025-07-17 00:29:37.986+00"
+  },
+  {
+    "_id": "30aebcab-1bbd-4ec0-be9b-8f3f17755f64",
+    "sender_id": "324338e4-8855-4a96-b9cc-66f33575c756",
+    "receiver_id": "9a84a9c7-c648-4b91-870a-12db43a1ac87",
+    "status": "pending",
+    "created_at": "2025-06-12 03:45:24.888493+00",
+    "updated_at": "2025-06-12 03:45:24.888493+00"
+  },
+  {
+    "_id": "399bd487-3dfe-47f1-8f04-fb7d44410081",
+    "sender_id": "2578f13c-eddb-4546-9225-d2b6d8ecbbac",
+    "receiver_id": "2578f13c-eddb-4546-9225-d2b6d8ecbbac",
+    "status": "pending",
+    "created_at": "2025-07-17 18:16:53.706+00",
+    "updated_at": "2025-07-17 18:16:53.715+00"
+  },
+  {
+    "_id": "39e061ef-06d0-4b20-9f65-effd62217391",
+    "sender_id": "46452351-9d78-4567-9789-bfbe53a375af",
+    "receiver_id": "16df77c2-4194-4755-8e53-2f8db54bfe5f",
+    "status": "pending",
+    "created_at": "2025-06-17 18:45:42.171+00",
+    "updated_at": "2025-06-17 18:45:42.171+00"
+  },
+  {
+    "_id": "3e04fa2c-8ea2-4941-ab75-a099667f835c",
+    "sender_id": "f3537009-2f73-4430-895a-ec499d1f5e44",
+    "receiver_id": "16df77c2-4194-4755-8e53-2f8db54bfe5f",
+    "status": "pending",
+    "created_at": "2025-07-31 23:41:56.659+00",
+    "updated_at": "2025-07-31 23:41:56.659+00"
+  },
+  {
+    "_id": "422e4880-3773-4e65-8ae7-6c04ce252d77",
+    "sender_id": "5b3083f5-912a-4690-8dd4-ebcc52eee014",
+    "receiver_id": "46452351-9d78-4567-9789-bfbe53a375af",
+    "status": "accepted",
+    "created_at": "2025-07-01 19:33:19.193+00",
+    "updated_at": "2025-07-01 19:33:30.339455+00"
+  },
+  {
+    "_id": "42b5eb0d-6e58-4003-88f1-d69e4cae8d00",
+    "sender_id": "fea2f268-95ae-4d16-bb8b-2e8bb54caa94",
+    "receiver_id": "589466b7-e277-4478-8af8-ac5eb8c0a689",
+    "status": "accepted",
+    "created_at": "2025-07-23 01:34:25.564+00",
+    "updated_at": "2025-07-23 03:12:41.410109+00"
+  },
+  {
+    "_id": "44bd108d-ebc1-40b4-8263-c0e7ee4890b7",
+    "sender_id": "589466b7-e277-4478-8af8-ac5eb8c0a689",
+    "receiver_id": "beec8392-172e-4f83-b760-720662eed630",
+    "status": "accepted",
+    "created_at": "2025-07-27 14:50:42.969+00",
+    "updated_at": "2025-07-28 19:03:02.931134+00"
+  },
+  {
+    "_id": "49035b8a-153f-495f-aac7-549b4aae6505",
+    "sender_id": "324338e4-8855-4a96-b9cc-66f33575c756",
+    "receiver_id": "46452351-9d78-4567-9789-bfbe53a375af",
+    "status": "accepted",
+    "created_at": "2025-06-06 02:08:29.039324+00",
+    "updated_at": "2025-06-13 10:57:55.446109+00"
+  },
+  {
+    "_id": "493602a1-d1bc-44c3-a70e-9cee458d9947",
+    "sender_id": "f3537009-2f73-4430-895a-ec499d1f5e44",
+    "receiver_id": "46452351-9d78-4567-9789-bfbe53a375af",
+    "status": "accepted",
+    "created_at": "2025-08-01 05:39:57.398+00",
+    "updated_at": "2025-08-01 17:28:35.102832+00"
+  },
+  {
+    "_id": "4b8eb735-befd-428b-8f3c-15379296d6b9",
+    "sender_id": "589466b7-e277-4478-8af8-ac5eb8c0a689",
+    "receiver_id": "9c591e83-1264-45c0-bc00-5fd51e301450",
+    "status": "accepted",
+    "created_at": "2025-06-06 15:35:56.107849+00",
+    "updated_at": "2025-07-02 14:05:40.212906+00"
+  },
+  {
+    "_id": "52b204af-0d0c-40c5-99eb-4010533e64ff",
+    "sender_id": "9ee04d1e-0b94-45fe-aa7f-21ffb26c722b",
+    "receiver_id": "9ee04d1e-0b94-45fe-aa7f-21ffb26c722b",
+    "status": "pending",
+    "created_at": "2025-07-14 10:15:37.421+00",
+    "updated_at": "2025-07-14 10:15:37.421+00"
+  },
+  {
+    "_id": "68c11183-3d88-4a5c-b48e-676ba06e5604",
+    "sender_id": "3c24d7dd-5f6c-4bef-9a5f-1dbf596cddfe",
+    "receiver_id": "46452351-9d78-4567-9789-bfbe53a375af",
+    "status": "accepted",
+    "created_at": "2025-07-14 09:36:51.897+00",
+    "updated_at": "2025-07-14 11:12:32.019774+00"
+  },
+  {
+    "_id": "6b893662-59cb-46a7-a5a7-732706de0b99",
+    "sender_id": "a48b21de-2d1f-4a57-b8c4-ac543067c1ed",
+    "receiver_id": "2578f13c-eddb-4546-9225-d2b6d8ecbbac",
+    "status": "pending",
+    "created_at": "2025-06-06 01:21:26.098571+00",
+    "updated_at": "2025-06-06 01:21:26.098571+00"
+  },
+  {
+    "_id": "77337257-2298-4297-b003-8a89fb06cb5a",
+    "sender_id": "589466b7-e277-4478-8af8-ac5eb8c0a689",
+    "receiver_id": "cfb26ad4-20c6-4dd6-ab40-184a23744ecb",
+    "status": "accepted",
+    "created_at": "2025-07-23 03:37:02.967+00",
+    "updated_at": "2025-08-07 15:43:34.380378+00"
+  },
+  {
+    "_id": "7d5db08d-9074-44a4-b07e-2a2a086c64bd",
+    "sender_id": "589466b7-e277-4478-8af8-ac5eb8c0a689",
+    "receiver_id": "16df77c2-4194-4755-8e53-2f8db54bfe5f",
+    "status": "pending",
+    "created_at": "2025-06-18 15:44:29.643+00",
+    "updated_at": "2025-06-18 15:44:29.646+00"
+  },
+  {
+    "_id": "7fbeb35e-045b-4206-9e72-18cdc7c2490b",
+    "sender_id": "9ee04d1e-0b94-45fe-aa7f-21ffb26c722b",
+    "receiver_id": "a48b21de-2d1f-4a57-b8c4-ac543067c1ed",
+    "status": "accepted",
+    "created_at": "2025-07-14 11:29:10.588+00",
+    "updated_at": "2025-08-07 14:53:39.744434+00"
+  },
+  {
+    "_id": "8541804d-6714-40a1-b9f8-21355ae5c52c",
+    "sender_id": "a48b21de-2d1f-4a57-b8c4-ac543067c1ed",
+    "receiver_id": "324338e4-8855-4a96-b9cc-66f33575c756",
+    "status": "accepted",
+    "created_at": "2025-06-06 02:00:55.459831+00",
+    "updated_at": "2025-06-06 02:06:33.839117+00"
+  },
+  {
+    "_id": "87033b60-f9fb-4f3e-8dba-79025a43dc11",
+    "sender_id": "3c24d7dd-5f6c-4bef-9a5f-1dbf596cddfe",
+    "receiver_id": "423bf2f6-bb65-448c-bd29-89a9f4740d52",
+    "status": "accepted",
+    "created_at": "2025-07-14 09:38:12.32+00",
+    "updated_at": "2025-07-17 14:51:34.331394+00"
+  },
+  {
+    "_id": "872f1f95-ad14-42b4-ad14-9730383de5e3",
+    "sender_id": "589466b7-e277-4478-8af8-ac5eb8c0a689",
+    "receiver_id": "324338e4-8855-4a96-b9cc-66f33575c756",
+    "status": "accepted",
+    "created_at": "2025-06-06 01:56:58.775657+00",
+    "updated_at": "2025-06-06 02:06:30.061201+00"
+  },
+  {
+    "_id": "91a5e6dd-8895-4c49-9fc0-ff9bca9ed90f",
+    "sender_id": "a48b21de-2d1f-4a57-b8c4-ac543067c1ed",
+    "receiver_id": "46452351-9d78-4567-9789-bfbe53a375af",
+    "status": "rejected",
+    "created_at": "2025-06-06 01:21:25.30429+00",
+    "updated_at": "2025-07-01 19:14:20.856569+00"
+  },
+  {
+    "_id": "9256cca5-98e8-44a2-abc7-251cacb5a82f",
+    "sender_id": "589466b7-e277-4478-8af8-ac5eb8c0a689",
+    "receiver_id": "46452351-9d78-4567-9789-bfbe53a375af",
+    "status": "accepted",
+    "created_at": "2025-06-06 00:35:34.498071+00",
+    "updated_at": "2025-06-06 13:44:12.579731+00"
+  },
+  {
+    "_id": "927037e5-faf3-4c55-b1a1-c2bf71c29011",
+    "sender_id": "9c591e83-1264-45c0-bc00-5fd51e301450",
+    "receiver_id": "9c591e83-1264-45c0-bc00-5fd51e301450",
+    "status": "pending",
+    "created_at": "2025-07-02 14:17:02.688+00",
+    "updated_at": "2025-07-02 14:17:02.688+00"
+  },
+  {
+    "_id": "9983c5ad-2c08-44ad-80ae-95fb68a48057",
+    "sender_id": "ac9b0765-b13d-49e9-b09c-844c6a2a9fd8",
+    "receiver_id": "2578f13c-eddb-4546-9225-d2b6d8ecbbac",
+    "status": "pending",
+    "created_at": "2025-07-23 13:49:46.642+00",
+    "updated_at": "2025-07-23 13:49:46.642+00"
+  },
+  {
+    "_id": "a002f977-e1f2-4747-b7bc-4f4e08ea8dff",
+    "sender_id": "46452351-9d78-4567-9789-bfbe53a375af",
+    "receiver_id": "a97711b6-8dc3-4d59-84fd-397b3e9a0d7c",
+    "status": "pending",
+    "created_at": "2025-07-01 18:22:03.831+00",
+    "updated_at": "2025-07-01 18:22:03.831+00"
+  },
+  {
+    "_id": "a29927bf-bdaf-4758-8f27-ea66a80bdcc6",
+    "sender_id": "fea2f268-95ae-4d16-bb8b-2e8bb54caa94",
+    "receiver_id": "fea2f268-95ae-4d16-bb8b-2e8bb54caa94",
+    "status": "pending",
+    "created_at": "2025-07-23 01:35:26.28+00",
+    "updated_at": "2025-07-23 01:35:26.28+00"
+  },
+  {
+    "_id": "a817d400-9047-4bbf-bd68-e68b82f94f49",
+    "sender_id": "589466b7-e277-4478-8af8-ac5eb8c0a689",
+    "receiver_id": "2578f13c-eddb-4546-9225-d2b6d8ecbbac",
+    "status": "pending",
+    "created_at": "2025-06-06 00:35:31.63627+00",
+    "updated_at": "2025-06-06 00:35:31.63627+00"
+  },
+  {
+    "_id": "aa466bd3-37bb-4249-b12f-83ee02649a47",
+    "sender_id": "a48b21de-2d1f-4a57-b8c4-ac543067c1ed",
+    "receiver_id": "423bf2f6-bb65-448c-bd29-89a9f4740d52",
+    "status": "accepted",
+    "created_at": "2025-06-06 01:19:47.864426+00",
+    "updated_at": "2025-06-06 02:30:45.109507+00"
+  },
+  {
+    "_id": "abeda039-fbec-486b-b22a-437ad110500e",
+    "sender_id": "9ee04d1e-0b94-45fe-aa7f-21ffb26c722b",
+    "receiver_id": "589466b7-e277-4478-8af8-ac5eb8c0a689",
+    "status": "accepted",
+    "created_at": "2025-07-14 10:26:58.293+00",
+    "updated_at": "2025-07-14 18:44:18.644114+00"
+  },
+  {
+    "_id": "ad1e30ad-02a7-494d-b10d-3e5961089559",
+    "sender_id": "9ee04d1e-0b94-45fe-aa7f-21ffb26c722b",
+    "receiver_id": "3c24d7dd-5f6c-4bef-9a5f-1dbf596cddfe",
+    "status": "accepted",
+    "created_at": "2025-07-14 11:29:35.156+00",
+    "updated_at": "2025-07-14 11:30:06.721962+00"
+  },
+  {
+    "_id": "b13128c3-c721-40ad-ac02-fcd32a88970c",
+    "sender_id": "3c24d7dd-5f6c-4bef-9a5f-1dbf596cddfe",
+    "receiver_id": "589466b7-e277-4478-8af8-ac5eb8c0a689",
+    "status": "accepted",
+    "created_at": "2025-07-14 09:18:00.969+00",
+    "updated_at": "2025-07-14 18:44:21.396212+00"
+  },
+  {
+    "_id": "b1b1e14d-5f31-4d4b-999d-c3be5926b444",
+    "sender_id": "589466b7-e277-4478-8af8-ac5eb8c0a689",
+    "receiver_id": "e46904e3-9543-4567-9abb-503d950c2ff1",
+    "status": "accepted",
+    "created_at": "2025-07-27 17:46:58.421+00",
+    "updated_at": "2025-07-29 14:53:05.81884+00"
+  },
+  {
+    "_id": "b42d8f42-a569-44dc-a78c-29069b9aa355",
+    "sender_id": "423bf2f6-bb65-448c-bd29-89a9f4740d52",
+    "receiver_id": "589466b7-e277-4478-8af8-ac5eb8c0a689",
+    "status": "accepted",
+    "created_at": "2025-06-06 00:57:19.900929+00",
+    "updated_at": "2025-06-06 02:15:27.479707+00"
+  },
+  {
+    "_id": "b47d59ba-622c-44cc-a3c2-7a86d2a44f5a",
+    "sender_id": "a48b21de-2d1f-4a57-b8c4-ac543067c1ed",
+    "receiver_id": "9c591e83-1264-45c0-bc00-5fd51e301450",
+    "status": "accepted",
+    "created_at": "2025-06-13 04:50:43.452433+00",
+    "updated_at": "2025-07-02 14:05:38.046048+00"
+  },
+  {
+    "_id": "c0a8072c-cc9b-4cb5-9b79-0bcda012a6e9",
+    "sender_id": "3c24d7dd-5f6c-4bef-9a5f-1dbf596cddfe",
+    "receiver_id": "5b3083f5-912a-4690-8dd4-ebcc52eee014",
+    "status": "pending",
+    "created_at": "2025-07-14 09:29:17.937+00",
+    "updated_at": "2025-07-14 09:29:17.937+00"
+  },
+  {
+    "_id": "c26790f6-2e33-4ae9-a47f-8b48d1b9bcca",
+    "sender_id": "3c24d7dd-5f6c-4bef-9a5f-1dbf596cddfe",
+    "receiver_id": "3c24d7dd-5f6c-4bef-9a5f-1dbf596cddfe",
+    "status": "pending",
+    "created_at": "2025-07-14 10:17:38.653+00",
+    "updated_at": "2025-07-14 10:17:38.653+00"
+  },
+  {
+    "_id": "c45d9c0d-fcba-4a41-9ce1-e43844dfd3e5",
+    "sender_id": "589466b7-e277-4478-8af8-ac5eb8c0a689",
+    "receiver_id": "5ecfa60e-9ca7-4d1a-88f6-f8770bfb8cbb",
+    "status": "pending",
+    "created_at": "2025-07-22 04:00:47.021+00",
+    "updated_at": "2025-07-22 04:00:47.021+00"
+  },
+  {
+    "_id": "c71dd1af-ef33-4376-9b02-15c2e8f588b8",
+    "sender_id": "ac9b0765-b13d-49e9-b09c-844c6a2a9fd8",
+    "receiver_id": "ac9b0765-b13d-49e9-b09c-844c6a2a9fd8",
+    "status": "pending",
+    "created_at": "2025-07-17 18:14:47.356+00",
+    "updated_at": "2025-07-17 18:14:47.356+00"
+  },
+  {
+    "_id": "c8ec5327-8bfe-4a8d-94c3-02dc28cbd12e",
+    "sender_id": "a48b21de-2d1f-4a57-b8c4-ac543067c1ed",
+    "receiver_id": "9a84a9c7-c648-4b91-870a-12db43a1ac87",
+    "status": "pending",
+    "created_at": "2025-06-13 04:50:42.636341+00",
+    "updated_at": "2025-06-13 04:50:42.636341+00"
+  },
+  {
+    "_id": "d014ccbf-4069-4230-b1fb-794f4a486779",
+    "sender_id": "589466b7-e277-4478-8af8-ac5eb8c0a689",
+    "receiver_id": "51274231-c632-457e-b5d2-f1d692ba0ffa",
+    "status": "pending",
+    "created_at": "2025-07-23 03:13:16.719+00",
+    "updated_at": "2025-07-23 03:13:16.719+00"
+  },
+  {
+    "_id": "d4d488f6-17dd-4f2c-baf1-11dcfe49833a",
+    "sender_id": "46452351-9d78-4567-9789-bfbe53a375af",
+    "receiver_id": "2578f13c-eddb-4546-9225-d2b6d8ecbbac",
+    "status": "accepted",
+    "created_at": "2025-06-05 19:34:10.918472+00",
+    "updated_at": "2025-06-05 19:35:01.517487+00"
+  },
+  {
+    "_id": "d86b0342-0638-400b-b89d-ea7ffcb52da2",
+    "sender_id": "46452351-9d78-4567-9789-bfbe53a375af",
+    "receiver_id": "eecf7b8d-9d85-428c-a6fa-eb663405355c",
+    "status": "pending",
+    "created_at": "2025-07-30 20:24:05.355+00",
+    "updated_at": "2025-07-30 20:24:05.355+00"
+  },
+  {
+    "_id": "eca2247c-0e75-4bd4-a013-cf1069986c34",
+    "sender_id": "589466b7-e277-4478-8af8-ac5eb8c0a689",
+    "receiver_id": "e8962591-5a6d-4909-863e-a145f3468679",
+    "status": "pending",
+    "created_at": "2025-07-31 15:33:21.17+00",
+    "updated_at": "2025-07-31 15:33:21.17+00"
+  },
+  {
+    "_id": "f0b458a1-2e5e-4c8b-ae28-b90a90e1f854",
+    "sender_id": "46452351-9d78-4567-9789-bfbe53a375af",
+    "receiver_id": "ac9b0765-b13d-49e9-b09c-844c6a2a9fd8",
+    "status": "accepted",
+    "created_at": "2025-07-01 09:45:49.652+00",
+    "updated_at": "2025-07-01 20:08:23.028408+00"
+  },
+  {
+    "_id": "f363eae8-57df-4188-a073-b406bfed159a",
+    "sender_id": "324338e4-8855-4a96-b9cc-66f33575c756",
+    "receiver_id": "423bf2f6-bb65-448c-bd29-89a9f4740d52",
+    "status": "accepted",
+    "created_at": "2025-06-06 02:05:48.378913+00",
+    "updated_at": "2025-06-06 02:30:40.472301+00"
+  },
+  {
+    "_id": "f894ad6d-6df8-4259-9edc-fb8828d3e0b9",
+    "sender_id": "589466b7-e277-4478-8af8-ac5eb8c0a689",
+    "receiver_id": "fea2f268-95ae-4d16-bb8b-2e8bb54caa94",
+    "status": "pending",
+    "created_at": "2025-07-31 16:19:10.666+00",
+    "updated_at": "2025-07-31 16:19:10.666+00"
+  }
+]

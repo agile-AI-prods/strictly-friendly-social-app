@@ -1,0 +1,51 @@
+[
+  {
+    "_id": "0bc50873-944d-4bcf-8595-4a123ac988cb",
+    "user_id": "46452351-9d78-4567-9789-bfbe53a375af",
+    "conversation_id": "2578f13c-eddb-4546-9225-d2b6d8ecbbac",
+    "is_typing": true,
+    "last_updated": "2025-06-09 19:31:55.435+00"
+  },
+  {
+    "_id": "46c4b5e5-07d8-4ebd-8dce-e3a3e4795ce1",
+    "user_id": "589466b7-e277-4478-8af8-ac5eb8c0a689",
+    "conversation_id": "324338e4-8855-4a96-b9cc-66f33575c756",
+    "is_typing": true,
+    "last_updated": "2025-06-12 04:58:13.521+00"
+  },
+  {
+    "_id": "476770bd-44a8-44cf-875f-7c2d4e30e3e5",
+    "user_id": "2578f13c-eddb-4546-9225-d2b6d8ecbbac",
+    "conversation_id": "46452351-9d78-4567-9789-bfbe53a375af",
+    "is_typing": false,
+    "last_updated": "2025-06-09 18:48:03.357+00"
+  },
+  {
+    "_id": "4aef0024-f045-4d06-956b-7a500cf44bbb",
+    "user_id": "324338e4-8855-4a96-b9cc-66f33575c756",
+    "conversation_id": "589466b7-e277-4478-8af8-ac5eb8c0a689",
+    "is_typing": true,
+    "last_updated": "2025-06-12 00:57:55.607+00"
+  },
+  {
+    "_id": "54bf2908-5e91-4dbb-873b-d557b6e72ded",
+    "user_id": "589466b7-e277-4478-8af8-ac5eb8c0a689",
+    "conversation_id": "46452351-9d78-4567-9789-bfbe53a375af",
+    "is_typing": true,
+    "last_updated": "2025-06-11 02:18:09.344+00"
+  },
+  {
+    "_id": "82aaea90-432b-4243-83fb-ad03913a835e",
+    "user_id": "46452351-9d78-4567-9789-bfbe53a375af",
+    "conversation_id": "589466b7-e277-4478-8af8-ac5eb8c0a689",
+    "is_typing": true,
+    "last_updated": "2025-06-11 11:31:14.466+00"
+  },
+  {
+    "_id": "b29cc685-c4e5-4f9e-9627-717bbda517ca",
+    "user_id": "589466b7-e277-4478-8af8-ac5eb8c0a689",
+    "conversation_id": "9a84a9c7-c648-4b91-870a-12db43a1ac87",
+    "is_typing": true,
+    "last_updated": "2025-06-11 02:17:58.589+00"
+  }
+]
